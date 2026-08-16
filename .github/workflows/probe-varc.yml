@@ -1,0 +1,9 @@
+name: Probe VarC
+on: workflow_dispatch
+jobs:
+  v:
+    uses: ./.github/workflows/fb-varC.yml
+    secrets: inherit
+    with:
+      upload-artifact: false
+      upload-tag: "nightly"

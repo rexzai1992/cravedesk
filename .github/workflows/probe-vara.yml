@@ -1,0 +1,9 @@
+name: Probe VarA
+on: workflow_dispatch
+jobs:
+  v:
+    uses: ./.github/workflows/fb-varA.yml
+    secrets: inherit
+    with:
+      upload-artifact: false
+      upload-tag: "nightly"
