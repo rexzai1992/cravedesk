@@ -1,7 +1,0 @@
-name: Test Sbom Action
-on: workflow_dispatch
-jobs:
-  s:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: anchore/sbom-action/download-syft@v0

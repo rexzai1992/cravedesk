@@ -1,7 +1,0 @@
-name: Test X64 Runner
-on: workflow_dispatch
-jobs:
-  x64:
-    runs-on: windows-2022
-    steps:
-      - run: echo hello from x64

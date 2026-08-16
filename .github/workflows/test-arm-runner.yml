@@ -1,7 +1,0 @@
-name: Test ARM Runner
-on: workflow_dispatch
-jobs:
-  arm:
-    runs-on: windows-11-arm
-    steps:
-      - run: echo hello from arm
